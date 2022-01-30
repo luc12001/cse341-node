@@ -1,7 +1,7 @@
 const PORT = process.env.PORT || 5000
 const cors = require('cors');
 const corsOptions = {
-    origin: "https://<your_app_name>.herokuapp.com/",
+    origin: "https://store341.herokuapp.com/",
     optionsSuccessStatus: 200
 };
 app.use(cors(corsOptions));
